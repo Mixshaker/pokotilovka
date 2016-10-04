@@ -1,19 +1,15 @@
 {
     "id": [{
         "section": "Образование",
-        "icon": "fa-users",
         "institution": [{
-            "title": "Покотиловский лицей 'Проминь'",
+            "title": "Покотиловский лицей &quot;Проминь&quot;",
             "lat": "-12.043333",
             "lng": "-77.028333",
             "adr": "ул. Кооперативная, 20",
             "tel": "057 745 6256",
             "site": "promin.edu.kh.ua",
             "info": "",
-            "image": "",
-            // "infoWindow": {
-            //   content: '<p>HTML Content</p>'
-            // }"
+            "image": ""
         }, {
             "title": "Покотиловская ООШ I-III ступеней №2",
             "lat": "",
@@ -22,10 +18,7 @@
             "tel": "057 745 6267",
             "site": "pokotylivka.edu.kh.ua",
             "info": "",
-            "image": "",
-            // "infoWindow": {
-            //   content: '<p>HTML Content</p>'
-            // }"
+            "image": ""
         }, {
             "title": "Покотиловское Дошкольное Учебное Учреждение (Ясли-Сад)",
             "lat": "",
@@ -34,15 +27,11 @@
             "tel": "057 745 6269",
             "site": "",
             "info": "Время работы: пн-пт 8:00-18:00",
-            "image": "",
-            // "infoWindow": {
-            //   content: '<p>HTML Content</p>'
-            // }"
+            "image": ""
         }]
     },
     {
         "section": "Медицина",
-        "icon": "fa-medkit",
         "institution": [{
            "title": "",
             "lat": "",
@@ -51,10 +40,7 @@
             "tel": "",
             "site": "",
             "info": "",
-            "image": "",
-            // "infoWindow": {
-            //   content: '<p>HTML Content</p>'
-            // }"
+            "image": ""
         }, {
             "title": "",
             "lat": "",
@@ -63,10 +49,7 @@
             "tel": "",
             "site": "",
             "info": "",
-            "image": "",
-            // "infoWindow": {
-            //   content: '<p>HTML Content</p>'
-            // }"
+            "image": ""
         }, {
             "title": "map.html",
             "lat": "",
@@ -75,10 +58,7 @@
             "tel": "",
             "site": "",
             "info": "",
-            "image": "",
-            // "infoWindow": {
-            //   content: '<p>HTML Content</p>'
-            // }"
+            "image": ""
         }]
     }]
 }
