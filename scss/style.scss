@@ -1,13 +1,36 @@
-body{
-  padding: 0;
-  margin: 0;
-  height:100%;
+// fonts
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+$font: "Open Sans", sans-serif;
+
+// colors
+$dark: #2c0e02;
+$vino: #5b1101;
+$yell: #d2a83e;
+$sand: #f5d31d;
+$viol: #49598c;
+
+body {
+  font-family: $font;
+  background: url(./../img/bg-autumn0.png), url(./../img/bg-autumn1.png);
+  background-size: 100px 100px;
 }
 
-#sidebar{
-  background:#ccc;
+// Main menu
+.navbar {
+  margin-bottom: 0px;
 }
 
-#main{
-  background:#9900CC;
+.navbar-inverse {
+  background-color: $dark;
+  border-color: $dark;
+}
+
+#sidebar {
+  padding-top: 25px;
+  background: $yell;
+}
+
+#main {
+  background: $sand;
 }

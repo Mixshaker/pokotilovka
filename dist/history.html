@@ -2,9 +2,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/02afd290d7.css">
+  <script type="text/javascript" src="//vk.com/js/api/openapi.js?130"></script>
+  <script type="text/javascript">
+  VK.init({apiId: 5655006, onlyWidgets: true});
+  </script>
   <title>История поселка</title>
 </head>
 <body>
@@ -35,18 +38,30 @@
     </div>
     <!-- /Top Menu -->
     <div class="row">
-    <!-- Sidebar -->
-      <div id="sidebar" class="col-lg-3 col-md-4">
-
-        Sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, labore!
+      <!-- Sidebar -->
+      <div id="sidebar" class="col-lg-3 col-sm-4 col-xs-12">
+        <!-- Gismeteo informer START -->
+        <div id="gsInformerID-GVp3UmN8r4nygo" class="gsInformer">
+          <div class="gsIContent">
+            <div id="cityLink">
+              <a href="https://www.gismeteo.ua/weather-pokotylivka-13921/" target="_blank">Погода в Покотиловке</a>
+            </div>
+            <div class="gsLinks"></div>
+          </div>
+        </div>
+        <script src="https://www.gismeteo.ua/ajax/getInformer/?hash=GVp3UmN8r4nygo" type="text/javascript"></script>
+        <!-- Gismeteo informer END -->
+        <div id="vk_poll"></div>
+        <script type="text/javascript">
+        VK.Widgets.Poll("vk_poll", {width: "300"}, "240391918_3aea3a8cf6fa7a359b");
+        </script>
       </div>
-    <!-- /Sidebar -->
-    <!-- Content block-->
-      <div id="main" class="col-lg-9 col-md-8">
-      <h1>Заголовок</h1>
-        Main part Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, possimus?
+      <!-- /Sidebar -->
+      <!-- Content block-->
+      <div id="main" class="col-lg-9 col-sm-8 col-xs-12">
+        <h1>Заголовок</h1>
       </div>
-    <!-- /Content block-->
+      <!-- /Content block-->
     </div>
   </div>
   <script src="js/all.js"></script>
